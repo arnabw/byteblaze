@@ -3,7 +3,6 @@ import {
   Collapse,
   Typography,
   IconButton,
-  Switch,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, NavLink } from "react-router-dom";
@@ -63,17 +62,6 @@ function NavList() {
           Bookmarks
         </NavLink>
       </Typography>
-      <Switch
-        id="custom-switch-component"
-        ripple={false}
-        className="h-full w-full checked:bg-[#1A103D]"
-        containerProps={{
-          className: "w-11 h-6",
-        }}
-        circleProps={{
-          className: "before:hidden left-0.5 border-none",
-        }}
-      />
     </ul>
   );
 }
