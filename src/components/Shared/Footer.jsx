@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="border">
       <div className="container mx-auto py-4">
         <Typography
           as="p"
